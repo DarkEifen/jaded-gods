@@ -1,0 +1,21 @@
+/* overrides.css — ajustes para GitHub Pages y responsividad mínima sin re-maquetar Muse */
+
+/* Evita scroll horizontal en pantallas pequeñas */
+html, body { overflow-x: hidden; }
+
+/* Un respiro arriba para que el header no quede “pegado” al borde */
+#page { padding-top: 16px; }
+
+/* Mantiene elementos SVG/IMG escalando correctamente */
+img, svg { max-width: 100%; height: auto; }
+
+/* Sticky footer básico: el spacer de Muse puede crecer para empujar el footer */
+.css_verticalspacer body { min-height: 100vh; }
+.css_verticalspacer #page { min-height: 100vh; }
+
+/* En móviles, reduce un poco el padding superior para aprovechar pantalla */
+@media (max-width: 600px) {
+  #page { padding-top: 10px; }
+}
+
+/* Nota: el escalado responsivo del layout se gestiona en scripts/responsive.js */
