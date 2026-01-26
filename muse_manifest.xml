@@ -1,0 +1,295 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="jadedgods.com" resolutions="1x" timestamp="1570585289812">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="contacto.css" crc="254127731" ref="contacto"/>
+    <file name="index.css" crc="4088507874" ref="index"/>
+    <file name="historia.css" crc="4170497265" ref="historia"/>
+    <file name="personajes.css" crc="47648619" ref="personajes"/>
+    <file name="cr_ditos.css" crc="316689161" ref="créditos"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:personajes:contacto:créditos:historia"/>
+    <file name="museutils.js" crc="340535759" ref="index:personajes:contacto:créditos:historia"/>
+    <file name="whatinput.js" crc="86476730" ref="index:personajes:contacto:créditos:historia"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:personajes:contacto:créditos:historia"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:personajes:contacto:créditos:historia"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:personajes:contacto:créditos:historia"/>
+    <file name="webpro.js" crc="4059564322" ref="index:contacto"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index"/>
+    <file name="form_check.php" crc="4020933626" ref="index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="index"/>
+    <file name="form_process.php" crc="37464564" ref="index"/>
+    <file name="form-u3647.php" crc="3867568198" ref="index"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:personajes:créditos:historia"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:personajes:contacto:créditos:historia"/>
+    <file name="require.js" crc="7928878" ref="index:personajes:contacto:créditos:historia"/>
+    <file name="form-u7403.php" crc="353540869" ref="contacto"/>
+  </folder>
+  <folder name="images">
+    <file name="01.jpg" crc="3961456203" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="02.png" crc="398437292" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="03.png" crc="36821839" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="04.png" crc="302615551" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="05.png" crc="529604214" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="06.png" crc="139393445" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="08.png" crc="3822381797" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="07.png" crc="457811725" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="09.png" crc="283865509" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="010.png" crc="4064796009" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="011.png" crc="3802386466" seo="true" ref="index:historia">
+      <caption webpage="index" alt=""/>
+      <caption webpage="historia" alt=""/>
+    </file>
+    <file name="logo_seleccionado_01-u1471-fr.png" crc="4020390455" ref="index"/>
+    <file name="u9787-7.png" crc="208207842" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:personajes:créditos:historia"/>
+    <file name="u4780.png" crc="236595312" ref="index"/>
+    <file name="u4780-r.png" crc="236595312" ref="index"/>
+    <file name="pasted-svg-15936x159.svg" crc="4074984078" seo="true" ref="index:contacto:créditos">
+      <caption webpage="index" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="créditos" alt=""/>
+      <caption webpage="créditos" alt=""/>
+    </file>
+    <file name="pasted svg 15936x159_poster_.png" crc="4217375424" ref="index"/>
+    <file name="pasted-svg-10224x162.svg" crc="385770616" seo="true" ref="index:contacto:créditos">
+      <caption webpage="index" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="créditos" alt=""/>
+      <caption webpage="créditos" alt=""/>
+    </file>
+    <file name="pasted svg 10224x162_poster_.png" crc="402807367" ref="index"/>
+    <file name="pasted-svg-16704x144.svg" crc="92502668" seo="true" ref="index:contacto:créditos">
+      <caption webpage="index" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="créditos" alt=""/>
+      <caption webpage="créditos" alt=""/>
+    </file>
+    <file name="pasted svg 16704x144_poster_.png" crc="380228940" ref="index"/>
+    <file name="012.png" crc="4104529864" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo_seleccionado_01.png" crc="471875296" ref="index:personajes:contacto:créditos:historia">
+      <caption webpage="index" alt=""/>
+      <caption webpage="contacto" alt=""/>
+      <caption webpage="personajes" alt=""/>
+      <caption webpage="créditos" alt=""/>
+      <caption webpage="historia" alt=""/>
+    </file>
+    <file name="cristh-u3053-fr.jpg" crc="4002600085" ref="index"/>
+    <file name="u3333-8.png" crc="3902494158" ref="index"/>
+    <file name="claris-u3048-fr.jpg" crc="3906243909" ref="index"/>
+    <file name="u3374-7.png" crc="3949462978" ref="index"/>
+    <file name="gods-u3058-fr.jpg" crc="385226548" ref="index"/>
+    <file name="u3419-5.png" crc="344028836" ref="index"/>
+    <file name="016.png" crc="181470509" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="015.png" crc="419356223" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="014.png" crc="297161556" ref="index:personajes:contacto">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="universo-1-670x369-u3783-fr.png" crc="3914919721" ref="index"/>
+    <file name="u10150-4.png" crc="3859713578" ref="index"/>
+    <file name="u2310-4-a.png" crc="4257981111" ref="index"/>
+    <file name="u2352.png" crc="3871859823" ref="index"/>
+    <file name="u2352-r.png" crc="358386535" ref="index"/>
+    <file name="u2352-a.png" crc="3871859823" ref="index"/>
+    <file name="u6270.png" crc="4087869486" ref="index"/>
+    <file name="u6270-r.png" crc="4243582533" ref="index"/>
+    <file name="u6270-a.png" crc="4087869486" ref="index"/>
+    <file name="u2380.png" crc="363602523" ref="index"/>
+    <file name="u2380-r.png" crc="4080931581" ref="index"/>
+    <file name="u2380-a.png" crc="363602523" ref="index"/>
+    <file name="u2436.png" crc="83775862" ref="index"/>
+    <file name="u2436-r.png" crc="4218722994" ref="index"/>
+    <file name="u2436-a.png" crc="83775862" ref="index"/>
+    <file name="u4897-4.png" crc="217424598" ref="index"/>
+    <file name="u5515.png" crc="4257981111" ref="personajes"/>
+    <file name="u5515-r.png" crc="3941707335" ref="personajes"/>
+    <file name="u5515-a.png" crc="4257981111" ref="personajes"/>
+    <file name="u5507-4-a.png" crc="3871859823" ref="personajes"/>
+    <file name="u6249.png" crc="4087869486" ref="personajes"/>
+    <file name="u6249-r.png" crc="4243582533" ref="personajes"/>
+    <file name="u6249-a.png" crc="4087869486" ref="personajes"/>
+    <file name="u5526.png" crc="363602523" ref="personajes"/>
+    <file name="u5526-r.png" crc="4080931581" ref="personajes"/>
+    <file name="u5526-a.png" crc="363602523" ref="personajes"/>
+    <file name="u5537.png" crc="83775862" ref="personajes"/>
+    <file name="u5537-r.png" crc="4218722994" ref="personajes"/>
+    <file name="u5537-a.png" crc="83775862" ref="personajes"/>
+    <file name="slider_personajes-crop-u5861.jpg" crc="3808707146" seo="true" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="lucy_01.jpg" crc="324637610" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="lucy-carta_back.jpg" crc="125762554" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="clarise_01.jpg" crc="477937284" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="clarise-carta_back.jpg" crc="432027019" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="katherina_01.jpg" crc="230964162" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="katherina-carta_back.jpg" crc="4253017278" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="erika_01.jpg" crc="4048729132" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="erika-carta_back.jpg" crc="344663550" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="amelia_01.jpg" crc="502314005" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="amelia-carta_back.jpg" crc="287673366" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="esther_01.jpg" crc="4067553702" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="esther-carta_back.jpg" crc="5229032" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="2616071.png" crc="506684640" seo="true" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="arcxels_tael_01.jpg" crc="4163642767" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="tael-carta_back.jpg" crc="374710155" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="arcxels_neos_01.jpg" crc="472772499" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="neos-carta_back.jpg" crc="346512027" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="eugene_01.jpg" crc="119331964" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="eugene-carta_back.jpg" crc="4251070722" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="arcxels_plank_01.jpg" crc="276212331" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="plank-carta_back.jpg" crc="438159897" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="cristofer_01.jpg" crc="190298597" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="christopher-carta_back.jpg" crc="493850815" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="marco_01.jpg" crc="3945497050" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="marco-carta-tras.jpg" crc="275982650" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="kevin_01.jpg" crc="4264529652" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="kevin-carta_back.jpg" crc="4107195345" ref="personajes">
+      <caption webpage="personajes" alt=""/>
+    </file>
+    <file name="u7212-4.png" crc="217424598" ref="personajes"/>
+    <file name="u7596-4.png" crc="217424598" ref="contacto"/>
+    <file name="universo-1-670x369.jpg" crc="247959248" ref="contacto">
+      <caption webpage="contacto" alt=""/>
+    </file>
+    <file name="u7894-4.png" crc="44203803" ref="contacto"/>
+    <file name="venus-u8959-fr.png" crc="3917984049" ref="créditos"/>
+    <file name="u8865.png" crc="4257981111" ref="créditos"/>
+    <file name="u8865-r.png" crc="3941707335" ref="créditos"/>
+    <file name="u8865-a.png" crc="4257981111" ref="créditos"/>
+    <file name="u8849.png" crc="3871859823" ref="créditos"/>
+    <file name="u8849-r.png" crc="358386535" ref="créditos"/>
+    <file name="u8849-a.png" crc="3871859823" ref="créditos"/>
+    <file name="u8845.png" crc="4087869486" ref="créditos"/>
+    <file name="u8845-r.png" crc="4243582533" ref="créditos"/>
+    <file name="u8845-a.png" crc="4087869486" ref="créditos"/>
+    <file name="u8858-4-a.png" crc="363602523" ref="créditos"/>
+    <file name="u8836.png" crc="83775862" ref="créditos"/>
+    <file name="u8836-r.png" crc="4218722994" ref="créditos"/>
+    <file name="u8836-a.png" crc="83775862" ref="créditos"/>
+    <file name="marco_02.jpg" crc="4045071537" ref="créditos">
+      <caption webpage="créditos" alt=""/>
+    </file>
+    <file name="u8978-19.png" crc="227796390" ref="créditos"/>
+    <file name="u9348.png" crc="3994942001" ref="créditos"/>
+    <file name="u9348-r.png" crc="3994942001" ref="créditos"/>
+    <file name="u8981-16.png" crc="4039637840" ref="créditos"/>
+    <file name="u8984-17.png" crc="3864933253" ref="créditos"/>
+    <file name="eifen.jpg" crc="4178730376" ref="créditos">
+      <caption webpage="créditos" alt=""/>
+    </file>
+    <file name="santee.jpg" crc="4183865733" ref="créditos">
+      <caption webpage="créditos" alt=""/>
+    </file>
+    <file name="u8868-4.png" crc="217424598" ref="créditos"/>
+    <file name="equipo_clarise-crop-u6715.png" crc="267378038" seo="true" ref="historia">
+      <caption webpage="historia" alt=""/>
+    </file>
+    <file name="2616071-crop-u6742.png" crc="4095233962" seo="true" ref="historia">
+      <caption webpage="historia" alt=""/>
+    </file>
+    <file name="u6542.png" crc="4257981111" ref="historia"/>
+    <file name="u6542-r.png" crc="3941707335" ref="historia"/>
+    <file name="u6542-a.png" crc="4257981111" ref="historia"/>
+    <file name="u6575.png" crc="3871859823" ref="historia"/>
+    <file name="u6575-r.png" crc="358386535" ref="historia"/>
+    <file name="u6575-a.png" crc="3871859823" ref="historia"/>
+    <file name="u6571-4-a.png" crc="4087869486" ref="historia"/>
+    <file name="u6549.png" crc="363602523" ref="historia"/>
+    <file name="u6549-r.png" crc="4080931581" ref="historia"/>
+    <file name="u6549-a.png" crc="363602523" ref="historia"/>
+    <file name="u6554.png" crc="83775862" ref="historia"/>
+    <file name="u6554-r.png" crc="4218722994" ref="historia"/>
+    <file name="u6554-a.png" crc="83775862" ref="historia"/>
+    <file name="u9656-4.png" crc="4092997287" ref="historia"/>
+    <file name="u7218-4.png" crc="217424598" ref="historia"/>
+    <file name="u6908.png" crc="4225934689" ref="historia"/>
+    <file name="u6908-r.png" crc="4225934689" ref="historia"/>
+  </folder>
+  <file name="index.html" crc="4229214165" seo="true" mt="1569293875424" redirect="true"/>
+  <file name="personajes.html" crc="84863352" seo="true" mt="1569292585206" redirect="true"/>
+  <file name="contacto.html" crc="3775207601" seo="true" mt="1569293815739" redirect="true"/>
+  <file name="créditos.html" crc="3946359522" seo="true" mt="1569295856585" redirect="true"/>
+  <file name="historia.html" crc="4283119551" seo="true" mt="1569292523259" redirect="true"/>
+</manifest>
