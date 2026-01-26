@@ -61,8 +61,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 <div class="clearfix grpelem" id="u7891-5"><!-- content -->
 <p><span id="u7891">​</span><span class="actAsInlineDiv normal_text" data-pintopage="page_fixedLeft" data-sizepolicy="fixed" id="u7896"><!-- content --><img alt="!QUIERES SABER MÁS¡" class="actAsDiv excludeFromNormalFlow" height="170" id="u7894-4" src="images/u7894-4.png?crc=44203803" width="533"/><!-- rasterized frame --></span></p>
 </div>
-<form action="#" class="form-grp clearfix grpelem" data-pintopage="page_fixedLeft" data-sizepolicy="fixed" enctype="multipart/form-data" id="widgetu7403" method="post" onsubmit="return window.JGDemoForm &amp;&amp; window.JGDemoForm.submit(event);"><!-- none box -->
-<div class="fld-grp clearfix grpelem" data-pintopage="page_fixedLeft" data-required="true" data-sizepolicy="fixed" id="widgetu7413"><!-- none box -->
+<form action="#" class="form-grp clearfix grpelem" data-demo="true" data-pintopage="page_fixedLeft" data-sizepolicy="fixed" enctype="multipart/form-data" id="widgetu7403" method="post"><!-- none box -->
+<div class="clearfix grpelem" id="demo_notice">Nota: este formulario es una demostración (GitHub Pages no ejecuta PHP). Al enviar, se abrirá tu cliente de correo.</div><div class="fld-grp clearfix grpelem" data-pintopage="page_fixedLeft" data-required="true" data-sizepolicy="fixed" id="widgetu7413"><!-- none box -->
 <label class="fld-label actAsDiv clearfix grpelem" data-pintopage="page_fixedLeft" data-sizepolicy="fixed" for="widgetu7413_input" id="u7415-4"><!-- content --><span class="actAsPara">Nombre:</span></label>
 <span class="fld-input NoWrap actAsDiv clearfix grpelem" data-pintopage="page_fixedLeft" data-sizepolicy="fixed" id="u7416-4"><!-- content --><input class="wrapped-input" data-pintopage="page_fixedLeft" data-sizepolicy="fixed" id="widgetu7413_input" name="custom_U7413" spellcheck="false" tabindex="1" type="text"/><label class="wrapped-input fld-prompt" for="widgetu7413_input" id="widgetu7413_prompt"><span class="actAsPara">Escribe tu nombre</span></label></span>
 </div>
@@ -126,12 +126,52 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 <!-- RequireJS script -->
 <script async="" data-main="scripts/museconfig.js?crc=4286661555" onerror="window.Muse.assets.check();" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType &amp;&amp; requireType.toString &amp;&amp; requireType.toString().indexOf &amp;&amp; 0 &lt;= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" src="scripts/require.js?crc=7928878" type="text/javascript"></script>
 <script>
-window.JGDemoForm = {
-  submit: function (e) {
-    try { if (e && e.preventDefault) e.preventDefault(); } catch(_) {}
-    alert("Este formulario está en modo demostración (GitHub Pages no ejecuta PHP).\n\nSi quieres que funcione, puedo conectarlo a Formspree o Netlify Forms.");
-    return false;
-  }
-};
+(function(){
+  var form = document.getElementById('widgetu7403');
+  if(!form) return;
+
+  function q(id){ return document.getElementById(id); }
+  var msgSubmitting = q('u7408-4');
+  var msgError = q('u7417-4');
+  var msgOk = q('u7419-4');
+
+  function show(el){ if(el) el.style.display='block'; }
+  function hide(el){ if(el) el.style.display='none'; }
+
+  // Hide Muse default status blocks on load
+  hide(msgSubmitting); hide(msgError); hide(msgOk);
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    e.stopPropagation();
+
+    hide(msgError);
+    show(msgSubmitting);
+
+    // Collect fields (Muse names)
+    var name = (form.querySelector('[name="custom_U7413"]')||{}).value || '';
+    var email = (form.querySelector('[name="Email"]')||{}).value || '';
+    var msg = (form.querySelector('[name="custom_U7409"]')||{}).value || '';
+
+    // Build a mailto (replace target email if you want)
+    var to = 'example@example.com';
+    var subject = encodeURIComponent('Contacto - JADED GODS');
+    var body = encodeURIComponent(
+      'Nombre: ' + name + '\n' +
+      'Email: ' + email + '\n\n' +
+      msg
+    );
+
+    // Open mail client
+    window.location.href = 'mailto:' + to + '?subject=' + subject + '&body=' + body;
+
+    // Show "received" state
+    hide(msgSubmitting);
+    show(msgOk);
+
+    // Optional: reset fields
+    // form.reset();
+  }, true);
+})();
 </script></body>
 </html>
