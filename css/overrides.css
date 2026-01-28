@@ -1,21 +1,14 @@
-/* overrides.css — ajustes para GitHub Pages y responsividad mínima sin re-maquetar Muse */
+/* --- GitHub Pages hardening for Adobe Muse export --- */
+html, body { width: 100%; min-width: 0; }
+body { overflow-x: hidden; }
 
-/* Evita scroll horizontal en pantallas pequeñas */
-html, body { overflow-x: hidden; }
+/* Keep Muse page centered; scaling handled by JS */
+#page { margin-left: auto; margin-right: auto; transform-origin: top center; }
 
-/* Un respiro arriba para que el header no quede “pegado” al borde */
-#page { padding-top: 16px; }
+/* Ensure images don't overflow their boxes unexpectedly */
+img { max-width: 100%; height: auto; }
 
-/* Mantiene elementos SVG/IMG escalando correctamente */
-img, svg { max-width: 100%; height: auto; }
-
-/* Sticky footer básico: el spacer de Muse puede crecer para empujar el footer */
-.css_verticalspacer body { min-height: 100vh; }
-.css_verticalspacer #page { min-height: 100vh; }
-
-/* En móviles, reduce un poco el padding superior para aprovechar pantalla */
-@media (max-width: 600px) {
-  #page { padding-top: 10px; }
+/* Reduce "stuck to top" feeling on small screens */
+@media (max-width: 600px){
+  #page { padding-top: 8px; }
 }
-
-/* Nota: el escalado responsivo del layout se gestiona en scripts/responsive.js */

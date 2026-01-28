@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="nojs html css_verticalspacer" lang="es">
+<html class="nojs html css_verticalspacer" lang="en-GB">
  <head>
 
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
@@ -22,8 +22,19 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
-     <link rel="stylesheet" type="text/css" href="css/overrides.css"/>
- </head>
+   <link rel="stylesheet" type="text/css" href="css/overrides.css"/>
+<script>
+/* Mobile-safe: disable Muse scroll effects (parallax) below design width */
+(function(){
+  var w = Math.min(window.innerWidth || 0, document.documentElement.clientWidth || 0);
+  if (!w) return;
+  if (w >= 1200) return;
+  window.__DISABLE_MUSE_SCROLL_EFFECTS__ = true;
+  // If jQuery loads later, we will patch it then (see responsive-muse.js).
+})();
+</script>
+<script src="scripts/responsive-muse.js"></script>
+</head>
  <body>
 
   <div class="clearfix borderbox" id="page"><!-- group -->
@@ -65,7 +76,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <div class="clearfix grpelem" id="u7891-5"><!-- content -->
        <p><span id="u7891">​</span><span class="actAsInlineDiv normal_text" id="u7896" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><img class="actAsDiv excludeFromNormalFlow" id="u7894-4" alt="!QUIERES SABER MÁS¡" width="533" height="170" src="images/u7894-4.png?crc=44203803"/><!-- rasterized frame --></span></p>
       </div>
-      <form class="form-grp clearfix grpelem" id="widgetu7403" method="post" enctype="multipart/form-data" action="scripts/form-u7403.php" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
+      <form enctype="text/plain" class="form-grp clearfix grpelem" id="widgetu7403" method="post" enctype="multipart/form-data" action="mailto:example@example.com" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
        <div class="fld-grp clearfix grpelem" id="widgetu7413" data-required="true" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
         <label class="fld-label actAsDiv clearfix grpelem" id="u7415-4" for="widgetu7413_input" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><span class="actAsPara">Nombre:</span></label>
         <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u7416-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu7413_input" name="custom_U7413" tabindex="1" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"/><label class="wrapped-input fld-prompt" id="widgetu7413_prompt" for="widgetu7413_input"><span class="actAsPara">Escribe tu nombre</span></label></span>
@@ -129,6 +140,5 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=7928878" type="text/javascript" async data-main="scripts/museconfig.js?crc=4286661555" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-     <script src="scripts/responsive.js"></script>
- </body>
+   </body>
 </html>
